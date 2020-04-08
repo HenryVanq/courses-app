@@ -11,7 +11,6 @@ Its a simple app which a user can add, update or delete a course.
           . immutability
           
     . react 
-      . container and reprentational components
       . test react
       
     . react-redux 
