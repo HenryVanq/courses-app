@@ -1,6 +1,5 @@
-export const createCourse = (course) => {
-  return {
-    type: "CREATE_COURSE",
-    action: course, // same left and rigt so use 1 word
-  };
-};
+import * as types from "./actionTypes";
+
+export function createCourse(course) {
+  return { type: types.CREATE_COURSE, course };
+}
